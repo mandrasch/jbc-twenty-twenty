@@ -74,6 +74,20 @@ Own additions available as CC0.
 
 /* General Styles */
 
-body{
-  font-family:'Roboto';
+body,
+.entry-content p,
+.wp-block-inline-spoilers-block{
+  font-family: 'Roboto';
+}
+
+/* expand logo */
+.site-logo img {
+    max-height: 14rem;
+}
+
+/* expand page content on desktop */
+@media (min-width: 782px) {
+  .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+      max-width: 80rem;
+  }
 }
