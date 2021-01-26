@@ -1,2 +1,2 @@
-# jugendbarcamps-twenty-twenty
+#jbc-twenty-twenty
 Twenty Twenty Child Theme
