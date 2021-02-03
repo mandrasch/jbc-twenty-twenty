@@ -92,3 +92,8 @@ body,
       max-width: 80rem;
   }
 }
+
+/* hide footer */
+.footer-copyright, .powered-by-wordpress{
+  display:none;
+}
