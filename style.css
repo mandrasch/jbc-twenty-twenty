@@ -75,6 +75,10 @@ Own additions available as CC0.
 
 /* General Styles */
 
+body{
+  hyphens: auto;
+}
+
 body,
 .entry-content p,
 .wp-block-inline-spoilers-block{
