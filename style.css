@@ -76,6 +76,7 @@ Own additions available as CC0.
 /* General Styles */
 
 body{
+  -moz-hyphens: auto;
   hyphens: auto;
 }
 
