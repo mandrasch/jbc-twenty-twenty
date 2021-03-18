@@ -86,6 +86,11 @@ body,
     max-height: 14rem;
 }
 
+.entry-content h2{
+  font-size: 1.9rem;
+}
+
+
 /* expand page content on desktop */
 @media (min-width: 782px) {
   .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
