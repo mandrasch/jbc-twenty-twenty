@@ -91,16 +91,18 @@ body,
     max-height: 14rem;
 }
 
-.entry-content h2{
-  font-size: 1.9rem;
-}
 
-
-/* expand page content on desktop */
 @media (min-width: 782px) {
+  /* expand page content on desktop */
   .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
       max-width: 80rem;
   }
+
+  /* smaller headline */
+  .entry-content h2{
+    font-size: 1.9rem;
+  }
+
 }
 
 /* hide footer */
