@@ -99,7 +99,7 @@ body,
   }
 
 }
-@media (min-width: 782px) {
+@media (max-width: 782px) {
   /* smaller headline */
   .entry-content h2{
     font-size: 1.9rem;
